@@ -82,6 +82,26 @@
 
 この Formula によって導入される [joplin][JOPL] を使用するには、 ```brew link --force z80oolong/joplin@1.3.2``` コマンドを実行する必要があります。
 
+### z80oolong/joplin/joplin@1.3.3
+
+この Formula は、 [joplin][JOPL] のデスクトップクライアントアプリケーションのプレリリース版である [joplin 1.3.3][JOPL] を導入するための Formula です。この Formula は、 [joplin][JOPL] の公式 Web ページより入手できる [joplin][JOPL] のデスクトップクライアントアプリケーションの AppImage パッケージを導入します。
+
+なお、 Linux カーネルが FUSE に対応していない等、 AppImage パッケージが正常に機能しない環境において、この Formula によって [joplin][JOPL] を導入する場合は、オプション ```--with-extract``` を指定して、 AppImage パッケージの内容を展開して下さい。
+
+**この Formula は、 versioned formula であるため、この Formula によって導入される [joplin][JOPL] は、 keg only で導入されることに留意して下さい。**
+
+この Formula によって導入される [joplin][JOPL] を使用するには、 ```brew link --force z80oolong/joplin@1.3.3``` コマンドを実行する必要があります。
+
+### z80oolong/joplin/joplin@1.3.5
+
+この Formula は、 [joplin][JOPL] のデスクトップクライアントアプリケーションのプレリリース版である [joplin 1.3.5][JOPL] を導入するための Formula です。この Formula は、 [joplin][JOPL] の公式 Web ページより入手できる [joplin][JOPL] のデスクトップクライアントアプリケーションの AppImage パッケージを導入します。
+
+なお、 Linux カーネルが FUSE に対応していない等、 AppImage パッケージが正常に機能しない環境において、この Formula によって [joplin][JOPL] を導入する場合は、オプション ```--with-extract``` を指定して、 AppImage パッケージの内容を展開して下さい。
+
+**この Formula は、 versioned formula であるため、この Formula によって導入される [joplin][JOPL] は、 keg only で導入されることに留意して下さい。**
+
+この Formula によって導入される [joplin][JOPL] を使用するには、 ```brew link --force z80oolong/joplin@1.3.5``` コマンドを実行する必要があります。
+
 ### z80oolong/joplin/joplin-cli
 
 この Formula は、 [joplin][JOPL] の CLI クライアントアプリケーションの最新の安定版を導入するための Formula です。
