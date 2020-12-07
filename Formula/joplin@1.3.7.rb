@@ -1,10 +1,10 @@
-class JoplinAT132 < Formula
+class JoplinAT137 < Formula
   desc "an open source note taking and to-do application with synchronization capabilities for Windows, Linux, and, etc."
   homepage "https://joplinapp.org/"
 
-  joplin_version = "1.3.2"
+  joplin_version = "1.3.7"
   url "https://github.com/laurent22/joplin/releases/download/v#{joplin_version}/Joplin-#{joplin_version}.AppImage"
-  sha256 "e322aaa1ffa4ffb4f2d139b1a853371e957da0ba94ebf1a0e97d6b5f07625edd"
+  sha256 "bd1e8e819990a278775a1af896a1da1d8485a844f685f39a74bcb744f70988c7"
   version joplin_version
 
   keg_only :versioned_formula

@@ -19,7 +19,7 @@ class JoplinAT126 < Formula
       libexec.cd do
         system "#{buildpath}/Joplin-#{version}.AppImage", "--appimage-extract"
       end
-      inreplace (libexec/"squashfs-root/AppRun").to_s, /^THIS=.*$/, %{THIS="$0"; APPDIR=""}
+      inreplace (libexec/"squashfs-root/AppRun").to_s, /^THIS=.*$/, %{THIS="$0"; APPDIR="#{libexec}/squashfs-root"}
 
       (bin/"joplin").make_symlink (libexec/"squashfs-root/AppRun")
     else
