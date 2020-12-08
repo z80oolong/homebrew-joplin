@@ -1,12 +1,14 @@
-class JoplinCli < Formula
+class JoplinCliAT144 < Formula
   desc "an open source note taking and to-do application with synchronization capabilities for Windows, Linux, and, etc."
   homepage "https://joplinapp.org/"
 
-  joplin_version = "1.4.9"
+  joplin_version = "1.4.4"
 
   url "https://registry.npmjs.org/joplin/-/joplin-#{joplin_version}.tgz"
-  sha256 "811161e477a6365734c719258186f401b1e4bd4eeea342f1e18ed88db041c69d"
+  sha256 "b0b48098da7b03ff63318fbc770e3230193173b628d2328de24102938d259d06"
   version joplin_version
+
+  keg_only :versioned_formula
 
   depends_on "python@3.8" => :build
   depends_on "nodeenv" => :build
